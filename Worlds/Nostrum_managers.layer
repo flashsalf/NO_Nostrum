@@ -1,0 +1,22 @@
+SCR_FactionManager FactionManager_Base1 : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ coords 2492.057 9.724 2302.237
+ Factions {
+  SCR_Faction "{59BCFAB23CDC68B2}" {
+   FactionKey "US"
+   FactionColor 0 0.122 1 0
+   m_sFactionFlag "{79FEFCD7360F5584}Assets/Props/Fabric/Flags/Data/Flag_1_2_USA_BCR.edds"
+   m_CallsignInfo SCR_FactionCallsignInfo "{59BCFAB2F940E149}" {
+   }
+  }
+  SCR_Faction "{59BCFAB2089DC30E}" {
+   FactionKey "Rebels"
+   m_sFactionFlag "{30A60B866941AB85}Assets/Props/Fabric/Flags/Data/Flag_2_3_Everon_BCR.edds"
+  }
+ }
+}
+SCR_LoadoutManager : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
+ coords 2489.435 9.745 2303.496
+}
+GarbageManager : "{9B883A7D8EBB282A}Prefabs/MP/Managers/GarbageManager.et" {
+ coords 2491.509 9.186 2304.345
+}
