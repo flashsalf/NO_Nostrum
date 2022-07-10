@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{64E8F263715F1937}Art/dfs_nostrum.edds"
+ Name "{51B75D38FD34DC0A}Art/terrain_nostrum.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }
